@@ -23,3 +23,10 @@ fser2 = fser.truncate(7)
 fser3 = fser.truncate(14)
 
 p = plot(f,fser1, fser2, fser3, (x,-pi, pi), show = False, legend = True)
+p[0].line_color = (0,0,0)
+p[0].label = 'x'
+p[1].line_color = (1,0,0)
+p[1].label = 'n=3'
+p[2].label = 'n=7'
+p[3].label = 'n=14'
+p.show()
