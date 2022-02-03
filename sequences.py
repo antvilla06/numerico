@@ -35,3 +35,13 @@ while k < 2*1000:
 
 print(m)
   
+ 
+N=10
+n=0
+m =0
+while n < N:
+  n = n +1
+  m = n+m
+  r = m**(2/N)
+print(r) 
+ 
